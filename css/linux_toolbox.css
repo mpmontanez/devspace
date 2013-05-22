@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+* { margin: 0; padding: 0; }
+
+/*section { display: block; }*/
+
+a { text-decoration: none; }
+
+.snippet {
+	background: #2e3436;
+	padding:10px 10px 10px 10px;
+	color:white;
+	margin: 0 0 20px 0;
+}
+
+.file {
+	background: #2e3436;
+	padding:10px 10px 10px 10px;
+	color:white;
+	margin: 0 0 20px 0;
+	white-space: pre;
+}
+
+code {	
+	color:white;
+	font-size:16px;
+}
+
+.comment {
+	color:#87CEFF;
+	font-weight:bold;
+	font-size:18px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.file_shortcut {
+    margin:20px 20px 20px 20px;
+}
+
+.filename {
+	font-weight:bold;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+#main {
+    width: 100%;
+    border-collapse:collapse;
+}
+
+#content {
+  background: #F0F0F0;
+  width:70%;
+  padding: 30px 30px 30px 30px;
+  
+}
+
+.side-pane {
+    width: 15%;
+    background-image:url(../images/ps.png);
+    opacity:0.8;
+    filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+#header {
+    width:100%;
+    height:300px;
+    position: relative; 
+    background: #321627; /* for non-css3 browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#321627'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#321627)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #000,  #321627); /* for firefox 3.6+ */
+}
+
+#header table{
+    margin-left:15%;
+    margin-right:15%;
+    position: absolute; 
+    bottom: 0; 
+    
+}
+
+#header table tr td{
+    padding:40px 40px 40px 40px;
+}
+
+#header table tr td a{
+    font-weight:bold;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	font-size:28px;
+    color:white;
+}
+
+
+#header table tr td:hover {
+    background: #321627; /* for non-css3 browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#321627'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#321627)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #fff,  #321627); /* for firefox 3.6+ */
+}
+
+
+#footer {
+    width:100%;
+    height:300px;
+    position: relative; 
+    background: #321627; /* for non-css3 browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#321627', endColorstr='#000000'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#321627), to(#000)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #321627,  #000); /* for firefox 3.6+ */
+}
+
+#languages tr {
+	width: 100%;
+}
+
+#languages td {
+	width: 25%;
+	padding: 10px 10px 10px 10px; 
+}
+
+
+.slide-up-boxes tr {
+	width: 100%;
+}
+
+.slide-up-boxes td {
+	width: 25%;
+	padding: 10px 10px 10px 10px; 
+}
+
+.slide-up-boxes tr td a { 
+			display: block; 
+			background: rgba(215, 215, 215, 0.5); 
+			border: 1px solid #ccc; 
+			height: 65px; 
+			overflow: hidden; 
+		}
+		
+.slide-up-boxes tr td h5 { 
+	color: #333; 
+	text-align: center;
+	height: 65px; 
+	font: italic 18px/65px 'Ubuntu', sans-serif;    /* Vertically center text by making line height equal to height */
+	 opacity: 1;
+	 -webkit-transition: all 0.2s linear; 
+	 -moz-transition: all 0.2s linear; 
+	 -o-transition: all 0.2s linear;
+}
+
+.slide-up-boxes tr td  a:hover h5 { 
+	margin-top: -65px; 
+	opacity: 0; 
+}
+
+.slide-up-boxes tr td div { 
+	position: relative; 
+	color: white; 
+	font: 12px/15px 'Ubuntu', sans-serif;
+	height: 65px; 
+	padding: 10px; 
+	text-align: center;
+	opacity: 0; 
+	-webkit-transform: rotate(6deg); 
+	-webkit-transition: all 0.4s linear; 
+	-moz-transform: rotate(6deg); 
+	-moz-transition: all 0.4s linear; 
+	-o-transform: rotate(6deg); 
+	-o-transition: all 0.4s linear; 
+}
+.slide-up-boxes tr td a:hover div { 
+	opacity: 1; 
+	-webkit-transform: rotate(0); 
+	-moz-transform: rotate(0); 
+	-o-transform: rotate(0); 
+}
+.slide-up-boxes tr:nth-child(1) td:nth-child(1) a div { background: #c73b1b; }
+.slide-up-boxes tr:nth-child(1) td:nth-child(2) a div { background: #367db2; }
+.slide-up-boxes tr:nth-child(1) td:nth-child(3) a div { background: #a93834; }
+.slide-up-boxes tr:nth-child(1) td:nth-child(4) a div { background: #2c0d51; }
+.slide-up-boxes tr:nth-child(2) td:nth-child(1) a div { background: #429078; }
+.slide-up-boxes tr:nth-child(2) td:nth-child(2) a div { background: #196835; }
+.slide-up-boxes tr:nth-child(2) td:nth-child(3) a div { background: #34307e; }
+.slide-up-boxes tr:nth-child(2) td:nth-child(4) a div { background: #81cc72; }
+.slide-up-boxes tr:nth-child(3) td:nth-child(1) a div { background: #69a8f8; }
+.slide-up-boxes tr:nth-child(3) td:nth-child(2) a div { background: #2b3831; }
+.slide-up-boxes tr:nth-child(3) td:nth-child(3) a div { background: #39253c; }
+.slide-up-boxes tr:nth-child(3) td:nth-child(4) a div { background: #b851e0; }
+.slide-up-boxes tr:nth-child(4) td:nth-child(1) a div { background: #69d838; }
+.slide-up-boxes tr:nth-child(4) td:nth-child(2) a div { background: #70d936; }
+.slide-up-boxes tr:nth-child(4) td:nth-child(3) a div { background: #b985f5; }
+.slide-up-boxes tr:nth-child(4) td:nth-child(4) a div { background: #e671d2; }
+
+.slide-up-boxes tr:nth-child(1) td:nth-child(1) { padding: 10px 10px 10px 0;  }
+.slide-up-boxes tr:nth-child(1) td:nth-child(4) { padding: 10px 0 10px 10px;  }
+.slide-up-boxes tr:nth-child(2) td:nth-child(1) { padding: 10px 10px 10px 0;  }
+.slide-up-boxes tr:nth-child(2) td:nth-child(4) { padding: 10px 0 10px 10px;  }
+.slide-up-boxes tr:nth-child(3) td:nth-child(1) { padding: 10px 10px 10px 0;  }
+.slide-up-boxes tr:nth-child(3) td:nth-child(4) { padding: 10px 0 10px 10px;  }
+.slide-up-boxes tr:nth-child(4) td:nth-child(1) { padding: 10px 10px 10px 0;  }
+.slide-up-boxes tr:nth-child(4) td:nth-child(4) { padding: 10px 0 10px 10px;  }
+
+
+	
+	
+
+
+
+

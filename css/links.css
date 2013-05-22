@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#header{
+  width:100%;
+  height:150px;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #666;
+  background: #999; /* for non-css3 browsers */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#000000'); /* for IE */
+  background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#000)); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #ccc,  #000); /* for firefox 3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#000));
+  border-bottom:3px solid red;
+}
+			
+.navbaricon{
+			width:110px;
+			height:146px;
+			margin:0px 25px 30px 25px; }
+			
+#home:hover{
+			background-image:url(../images/HomeHover2.png);}
+
+#aboutus:hover{
+			background-image:url(../images/AboutUsHover2.png);}
+
+#portfolio:hover{
+			background-image:url(../images/PortfolioHover2.png);}
+
+#contactus:hover{
+			background-image:url(../images/ContactusHover2.png);}
+
+.slider-wrapper{
+	margin: 20px;
+}
+
+#logo{
+	width: 510px;
+	height: 126px;
+	padding-bottom:10px;}
+
+body{
+	background-image:url(../images/Background.jpg);
+	width: 100%;}
+	
+#footer {
+   background: #999; /* for non-css3 browsers */
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#000000'); /* for IE */
+   background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#000)); /* for webkit browsers */
+   background: -moz-linear-gradient(top,  #ccc,  #000); /* for firefox 3.6+ */
+   background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#000));
+   width: 100%;
+   height: 50px;
+   position:absolute;
+   bottom:0px;
+   a:link {color:red};
+
+#copyright{
+	text-align: right;
+}
+
+#links{
+	padding: 30px 0;
+	width: 425px;
+	height:50px;
+	text-align:center;
+}
+ 
+   
+    
+	
+
+
+	
+
+	
+	
+
+
+
+
